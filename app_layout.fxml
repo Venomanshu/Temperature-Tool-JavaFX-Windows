@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="332.0" prefWidth="326.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gtmzoid.javafx.Controller">
+    <children>
+        <Pane prefHeight="335.0" prefWidth="296.0">
+            <children>
+                <Label fx:id="welcomeLabel" alignment="CENTER" layoutX="-8.0" layoutY="35.0" prefHeight="27.0" prefWidth="370.0" text="Welcome">
+                    <font>
+                        <Font name="Droid Sans Bold" size="24.0" />
+                    </font>
+                </Label>
+                <ChoiceBox fx:id="choiceBox" layoutX="67.0" layoutY="79.0" prefHeight="25.0" prefWidth="184.0" />
+                <TextField fx:id="userInputField" layoutX="66.0" layoutY="123.0" prefHeight="29.0" prefWidth="184.0" promptText="Enter Temprature" />
+                <Button fx:id="convertButton" layoutX="102.0" layoutY="168.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="107.0" text="Convert">
+                    <font>
+                        <Font name="System Bold" size="12.0" />
+                    </font>
+                </Button>
+            </children>
+        </Pane>
+    </children>
+</VBox>
